@@ -1,4 +1,4 @@
-# Awesome Stacks![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Stacks[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ![awesome-stacks-zh-cn](./README.assets/awesome-stacks-zh-cn.png)
 
