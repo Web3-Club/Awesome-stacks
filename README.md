@@ -1,4 +1,4 @@
-# Awesome Stacks(🚧正在翻译整合中...🚧)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Stacks![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ![awesome-stacks-zh-cn](./README.assets/awesome-stacks-zh-cn.png)
 
@@ -6,41 +6,54 @@
 
 
 
-[Stacks](https://www.stacks.co/what-is-stacks) is a blockchain anchored by Bitcoin that enables apps, smart contracts, and digital assets. Stacks is a layer-1 blockchain that connects to Bitcoin and implements smart contracts and decentralized applications through the [Clarity language](https://clarity-lang.org/). Through the [Proof of Transfer (PoX) consensus mechanism](https://docs.stacks.co/stacks-101/proof-of-transfer), the state of the Stacks blockchain is anchored against the Bitcoin blockchain, thus providing the security and finality of Bitcoin to Stacks. Stacks brings the programmability of other blockchain technologies to Bitcoin, without the need to modify the core consensus mechanism of Bitcoin itself.
+[Stacks](https://www.stacks.co/what-is-stacks) 是一个由比特币锚定的区块链，支持应用程序、智能合约和数字资产。Stacks 是一个连接到比特币的Layer-1区块链，并通过[Clarity语言](https://clarity-lang.org/)实现智能合约和去中心化应用程序。通过[转移证明（PoX）共识机制](https://docs.stacks.co/stacks-101/proof-of-transfer)，将Stacks 区块链的状态锚定在比特币区块链上，从而为 Stacks 提供等同于比特币网络的安全性。Stacks 将其他区块链技术的可编程性带到比特币中的同时无需修改比特币自身的核心共识机制。
 
-## Contents
+## 目录
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!--lint ignore awesome-list-item-->
 
-- [Apps](#apps)
-  - [Wallets](#wallets)
-  - [Stacks Web Applications](#stacks-web-applications)
-  - [Blockchain Name System](#blockchain-name-system)
-  - [DeFi](#defi)
-  - [Games](#games)
-  - [Stacking Apps](#stacking-apps)
-- [Clarity Resources](#clarity-resources)
-  - [Developer Tools](#developer-tools)
-  - [Example Contracts](#example-contracts)
-  - [Libraries](#libraries)
-  - [Contracts](#contracts)
-  - [Non-Fungible Tokens](#non-fungible-tokens)
-  - [Fungible Tokens](#fungible-tokens)
-  - [Stacking](#stacking)
-- [App Development](#app-development)
-  - [Client Libraries](#client-libraries)
+- [应用程序](#应用程序)
+  
+  - [钱包](#钱包)
+  
+  - [Stacks Web 应用](#Stacks Web 应用)
+  
+  - [BNS域名](#BNS域名)
+  
+  - [去中心化金融 (DeFi)](#去中心化金融 (DeFi))
+  
+  - [游戏](#游戏)
+  
+    
+  
+- [Clarity相关资源](#Clarity相关资源)
+  
+  - [开发者工具](#开发者工具)
+  - [示例合约](#示例合约)
+  - [库](#库)
+  - [合约](#合约)
+  - [非同质化代币 (NFT)](#非同质化代币 (NFT))
+  - [同质化代币(FT)](#同质化代币)
+  - [质押](#质押)
+  
+- [Dapp开发工具](#Dapp开发工具)
+  
+  - [SDK](#SDK)
   - [CLI](#cli)
-  - [Storage](#storage)
-  - [Indexing and Querying APIs](#indexing-and-querying-apis)
-- [Learning Resources](#learning-resources)
-  - [Documentation](#documentation)
-  - [Videos](#videos)
-  - [Written Tutorials](#written-tutorials)
-  - [Books](#books)
-  - [Courses](#courses)
-- [Community](#community)
+  - [存储](#存储)
+  - [API服务](#API服务)
+  
+- [学习资源](#学习资源)
+  
+  - [文档](#文档)
+  - [视频](#视频)
+  - [教程](#教程)
+  - [图书](#图书)
+  - [课程](#课程)
+  
+- [社区](#社区)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -95,22 +108,24 @@
 - [Stacks Degens](https://stacksdegens.com) - 一个通过 NFT 实现的像素风赛车游戏。
 - [Project Indigo](https://www.projectindigonft.com) - 一个交互式的RPG游戏。
 
-## 
+
+
+## Clarity相关资源
 
 ### 开发者工具
 
-- [Clarinet](https://github.com/hirosystems/clarinet) - Clarity 的命令行工具，方便开发和测试 Clarity 智能合约。
+- [Clarinet](https://github.com/hirosystems/clarinet) - Clarity 的命令行工具，用于开发和测试 Clarity 智能合约。
 - [Clariform](https://github.com/njordhov/clariform) - Clarity 的代码格式化和语法检查工具。
 - [Clarigen](https://github.com/obylabs/clarigen) - 用于编写与 Clarity 智能合约交互的 TypeScript 代码的工具。
 - [clarity.tools](https://clarity.tools) - 运行在浏览器中的 Clarity 交互执行环境。
-- [ClarityGPT Prompt](https://claritygpt.com/) - 使用GPT编写智能合约的Prompt。
+- [ClarityGPT Prompt](https://claritygpt.com/) - 使用GPT编写Clarity智能合约的Prompt。
 - [Hiro Platform](https://platform.hiro.so/) - 浏览器中的集成开发环境 (IDE)。
 
 ### 示例合约
 
-- [Source of Clarity](https://source-of-clarity.com) - 已部署的主网 Clarity 合约列表，并附有一些注释。
+- [Source of Clarity](https://source-of-clarity.com) - 已部署到主网的一些 Clarity 合约列表，并附有一些注释。
 - [示例合约](https://github.com/hirosystems/clarity-examples) - 一组示例智能合约，可以作为学习clarity合约的起点。
-- [经过审计的示例智能合约](https://github.com/clarity-lang/book/tree/main/projects) - 另一组示例智能合约，已进行安全审计。
+- [经过审计的示例智能合约](https://github.com/clarity-lang/book/tree/main/projects) - 已进行安全审计的示例智能合约，。
 
 ### 库
 
@@ -142,24 +157,32 @@
 
 ### 质押
 
-- [Stacking Pools](https://github.com/friedger/clarity-stacking-pools) - 用于质押池的 PoX 包装合约。
-- [Stacks Pools](https://github.com/degen-lab/stacks-pools) - 去中心化质押池。
+- [Stacking Pools](https://github.com/friedger/clarity-stacking-pools) 
+- [Stacks Pools](https://github.com/degen-lab/stacks-pools) 
 
-## 应用开发
+## Dapp开发工具
 
-### 客户端库
+### SDK
 
-- [Stacks.js](https://github.com/hirosystems/stacks.js) - 用于与 Stacks 区块链交互的 JavaScript 库的单一代码库。
-- [stacks.rs](https://github.com/52/stacks.rs) - 用于与 Stacks 区块链交互的 Rust 工具包。
+- [Stacks.js](https://github.com/hirosystems/stacks.js) - 用于与 Stacks 区块链交互的 JavaScript 库。
+- [stacks.rs](https://github.com/52/stacks.rs) - 用于与 Stacks 区块链交互的 Rust 库。
 - [stacks.py](https://github.com/rohitverma007/stackspy) - 用于与 Stacks 区块链交互的 Python 库。
 
-### 命令行工具 (CLI)
+### CLI 
 
 - [@stacks/cli](https://github.com/hirosystems/stacks.js/tree/master/packages/cli) - 用于交互授权、存储和交易的命令行接口。
 
 
 
-### RPC服务
+### 存储
+
+- [CompassDB](https://github.com/eder-ai/compass-db) - 用于管理Gaia存储的库。
+- [lens-file-source](https://gitlab.com/MyLens/lens-file-source) - 通过缓存、事务和JSON映射聚合等机制实现文件存储抽象的Gaia
+- [GaiaDown](https://github.com/AcidLeroy/gaiadown-ts) - [LevelUp](https://github.com/Level/levelup) 的Gaia存储后端。
+
+
+
+### API服务
 
 - [Stacks API](https://www.hiro.so/stacks-api) - 托管 API，用于直接与区块链交互以查询信息、广播交易。
 - [Quicknode](https://www.quicknode.com/chains/stx) - 托管节点，使用 Quicknode 快速轻松地连接到 Stacks。
@@ -175,7 +198,7 @@
 - [Hiro 文档](https://docs.hiro.so/) - 面向开发者的文档。
 - [Stacks 101](https://stacks101.com) - 由社区贡献的知识库。
 
-### 视频资源
+### 视频
 
 - [Clarity 101](https://youtu.be/lXJutQqDq3w) - 学习 Clarity 设计原则相关的基础知识.
 - [Developer Registry 101](https://www.crowdcast.io/e/clarity-program) - 学习如何从头开始构建一个 Clarity 智能合约。
@@ -186,33 +209,30 @@
 
 ### 教程
 
-- [Built on Bitcoin: An Introduction to Full-Stack Web3 Development with Stacks](https://dev.to/stacks/built-on-bitcoin-an-introduction-to-full-stack-web3-development-with-stacks-me9) - A high-level overview of building full-stack applications with Stacks.
-- [Understanding Stacks Post Conditions](https://dev.to/stacks/understanding-stacks-post-conditions-e65) - A guide to understanding and working with Post Conditions in Stacks.
-- [Test-Driven Stacks Development with Clarinet](https://dev.to/stacks/test-driven-stacks-development-with-clarinet-2e4i) - A tutorial showing how to utilize Clarinet for testing and TDD.
-- [Build a DEX with Stacks](https://www.pointer.gg/tutorials/build-a-dex-with-stacks/56abb3a4-05c1-4608-b096-f82189e9f759) - An extensive introduction to working with Stacks by building a full-stack decentralized exchange.
-- [Build a Stacks app with Remix](https://micro-stacks.dev/guides/with-remix) - How to create a server-side rendered Stacks app using the Remix JS framework and Micro-Stacks.
-- [Build a Stacks app with Next.js](https://micro-stacks.dev/guides/with-nextjs) - Similar to the Remix tutorial above, this one utilizing Next.js and Micro-Stacks.
+- [Built on Bitcoin: An Introduction to Full-Stack Web3 Development with Stacks](https://dev.to/stacks/built-on-bitcoin-an-introduction-to-full-stack-web3-development-with-stacks-me9) - 概述如何使用Stacks构建Dapp。
+- [Understanding Stacks Post Conditions](https://dev.to/stacks/understanding-stacks-post-conditions-e65) - 深入理解 Stacks网络中的 “Post Conditions”
+- [Test-Driven Stacks Development with Clarinet](https://dev.to/stacks/test-driven-stacks-development-with-clarinet-2e4i) - 如何使用Clarinet进行测试和测试驱动开发的教程。
+- [Build a DEX with Stacks](https://www.pointer.gg/tutorials/build-a-dex-with-stacks/56abb3a4-05c1-4608-b096-f82189e9f759) - 通过构建一个去中心化交易所来深入介绍使用Stacks的教程。
+- [Build a Stacks app with Remix](https://micro-stacks.dev/guides/with-remix) - 如何使用Remix JS框架和Micro-Stacks创建服务器端渲染的Stacks应用。
+- [Build a Stacks app with Next.js](https://micro-stacks.dev/guides/with-nextjs) -  与上面的Remix教程类似，使用Next.js和Micro-Stacks的教程。
 - [Creating a Voting Contract](https://www.clearness.dev/01-voting-clarity-smart-contract/01-getting-started) - 演示如何用 Clarity 创建一个基本的投票智能合约。
-- [Building an NFT with Stacks and Clarity](https://blog.developerdao.com/building-an-nft-with-stacks-and-clarity) - Utilize the SIP-009 standard to create an NFT using Clarity.
+- [Building an NFT with Stacks and Clarity](https://blog.developerdao.com/building-an-nft-with-stacks-and-clarity) - 使用SIP-009标准创建NFT.
 - [Order Book Contract Walkthrough](https://byzantion.hiro.so/) - Walkthrough of an order book smart contract built with Clarity.
-- [NFT Tutorial](https://docs.hiro.so/tutorials/clarity-nft) - Create an NFT with Clarity.
+- [NFT Tutorial](https://docs.hiro.so/tutorials/clarity-nft) - 使用Clarity创建NFT的教程。
 
-### Books
+### 图书
 
-- [Clarity of Mind](https://book.clarity-lang.org/) - Writing productive smart contracts that are predictable. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- [Clarity of Mind](https://book.clarity-lang.org/) - 编写高效且可预测的智能合约.
 
-### Courses
+### 课程资源
 
-- [Clarity Universe](https://clarity-lang.org/universe) - A comprehensive Clarity development course, offered as both a self-paced course or as a 6-week guided cohort.
+- [Clarity Universe](https://clarity-lang.org/universe) - 全面的Clarity开发课程。
 
-## Community
+## 社区
 
-- [Discord](https://discord.gg/zrvWsQC) - Stacks ecosystem Discord.
-- [Twitter](https://twitter.com/stacks) - Stacks ecosystem Twitter.
-- [YouTube](https://www.youtube.com/c/Blockstack) - Stacks ecosystem YouTube.
-- [Official Stacks Forum](https://forum.stacks.org/) - Stacks community forum.
+- [Discord](https://discord.gg/zrvWsQC) 
+- [Twitter](https://twitter.com/stacks) 
+- [YouTube](https://www.youtube.com/c/Blockstack) 
+- [Official Stacks Forum](https://forum.stacks.org/) 官方论坛
 - [r/stacks](https://www.reddit.com/r/stacks) - Stacks subreddit.
 
-## Contributing
-
-We welcome community contributions to this list. Please read the [contribution guidelines](contributing.md) before contributing.
