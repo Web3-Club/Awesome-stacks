@@ -18,7 +18,7 @@
   
   - [钱包](#钱包)
   
-  - [Stacks Web 应用](#Stacks Web 应用)
+  - [StacksWeb应用](#StacksWeb应用)
   
   - [BNS域名](#BNS域名)
   
@@ -65,7 +65,7 @@
 - [Leather Wallet](https://leather.io/install-extension) - 开源钱包，仅支持比特币和 Stacks 生态。[桌面端版本](https://leather.io/install-desktop)。
 - [Xverse Wallet](https://www.xverse.app/) - 移动钱包应用及浏览器插件，用于管理比特币、STX 和质押（部分开源）。
 
-### Stacks Web 应用
+### StacksWeb应用
 
 - [Hiro Explorer](https://explorer.hiro.so/?chain=mainnet) - 区块链浏览器。
 - [STX Scan](https://stxscan.co/) - 区块链浏览器。
